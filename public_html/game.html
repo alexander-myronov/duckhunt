@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+	<title>Duck Hunt game</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/main.css">
+    </head>
+    <body onresize="resize()">
+	<ul id = "nav">
+	    <li><a href="index.html">Home</a></li>
+	    <li><a href="game.html">Play</a></li>
+	    <li><a href="history.html">History</a></li>
+	</ul>
+	<script src="js/plugins.js"></script>
+	<script src="js/sprites.js"></script>
+	<script src="js/entities.js"></script>
+	<script src="js/game.js"></script>
+        <script src="js/main.js"></script>
+	<div id="left-block">
+	    <div id="gameFrame">
+		<canvas id="gameCanvas"></canvas>
+	    </div>
+	</div>
+	
+	<div id="right-block">
+	    <h3>Submit your score!</h3>
+	    <form>
+		<input name="email" type="email" placeholder="username@example.com">
+		<input id="submit" type="submit">
+	    </form>
+	</div>
+    </body>
+</html>
